@@ -35,7 +35,7 @@ class ViewController: UIViewController
         let operation = sender.currentTitle!
         if userInterNumbers {
             enter()
-        }
+        } //
         switch operation {
             
         case "×": performOperation{ $0 * $1 }
